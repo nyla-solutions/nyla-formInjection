@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="nyla.solutions.formInjection">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="nyla.solutions.global-0.0.4-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/nyla.solutions.global/nyla.solutions.global">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="nyla.solutions.spring.web-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/nyla.solutions.spring.web/nyla.solutions.spring.web">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="nyla.solutions.dao-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/nyla.solutions.dao/nyla.solutions.dao">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="nyla.solutions.global.web-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/nyla.solutions.global.web/nyla.solutions.global.web">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="nyla.solutions.office-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/nyla.solutions.office/nyla.solutions.office">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="nyla.solutions.dao.hibernate-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/nyla.solutions.dao.hibernate/nyla.solutions.dao.hibernate">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="nyla.solutions.blueprint.jee-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/nyla.solutions.blueprint.jee/nyla.solutions.blueprint.jee">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="nyla.solutions.formInjection"/>
+        <property name="java-output-path" value="/nyla.solutions.formInjection/target/classes"/>
+    </wb-module>
+</project-modules>
